@@ -6,10 +6,15 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
 
-@interface Jul19AppDelegate : UIResponder <UIApplicationDelegate>
+@interface Jul19AppDelegate: UIResponder <UIApplicationDelegate> {
+	UIWindow *_window;
+	NSArray *planets;
+	NSMutableArray *visited;
+}
 
+- (void) nextStation;
 @property (strong, nonatomic) UIWindow *window;
-
 @end
