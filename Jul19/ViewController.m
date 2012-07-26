@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "Jul19AppDelegate.h"
 #import "View.h"
+#import "InfoController.h"
+#import "InfoView.h"
 
 @implementation ViewController
 
@@ -36,7 +38,7 @@
 																				  style: UIBarButtonItemStylePlain
 																				 target: self
 																				 action: @selector(nextStation)
-												  ];		
+												  ];
 		
 		
 	}
@@ -48,6 +50,30 @@
 	Jul19AppDelegate *applicationDelegate = application.delegate;
 	[applicationDelegate nextStation];
 }
+
+
+- (void) discover {
+	
+	NSLog( @"Here");
+
+	Jul19AppDelegate *applicationDelegate = [UIApplication sharedApplication].delegate ;
+	NSString *information = [applicationDelegate.information objectForKey: self.title];
+	
+	InfoController *infoController = [[InfoController alloc]
+									  initWithTitle: self.title
+									  information: information 
+									  ];
+	
+	//Create a navigation controller to make the infoController's navigation item
+	//(containing the Done button) visible.
+	UINavigationController *navigationController =
+	[[UINavigationController alloc] initWithRootViewController: infoController];
+	
+	[self presentModalViewController: navigationController animated: YES];
+
+}
+
+
 
 
 - (void) didReceiveMemoryWarning

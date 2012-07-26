@@ -10,21 +10,24 @@
 		F082F17615B64A47006482A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F082F17515B64A47006482A8 /* UIKit.framework */; };
 		F082F17815B64A47006482A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F082F17715B64A47006482A8 /* Foundation.framework */; };
 		F082F17A15B64A47006482A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F082F17915B64A47006482A8 /* CoreGraphics.framework */; };
-		F082F18015B64A47006482A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F082F17E15B64A47006482A8 /* InfoPlist.strings */; };
-		F082F18215B64A47006482A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F082F18115B64A47006482A8 /* main.m */; };
-		F082F18615B64A47006482A8 /* Jul19AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F082F18515B64A47006482A8 /* Jul19AppDelegate.m */; };
-		F082F18E15B64BDC006482A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F082F18D15B64BDC006482A8 /* ViewController.m */; };
-		F082F19415B6508B006482A8 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = F082F19315B6508B006482A8 /* View.m */; };
-		F0F6130B15B7B82A0059445B /* earth.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F6130115B7B82A0059445B /* earth.jpeg */; };
-		F0F6130C15B7B82A0059445B /* jupiter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F6130215B7B82A0059445B /* jupiter.jpeg */; };
-		F0F6130D15B7B82A0059445B /* mars.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F6130315B7B82A0059445B /* mars.jpeg */; };
-		F0F6130E15B7B82A0059445B /* mercury.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F6130415B7B82A0059445B /* mercury.jpeg */; };
-		F0F6130F15B7B82A0059445B /* neptune.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F6130515B7B82A0059445B /* neptune.jpeg */; };
-		F0F6131015B7B82A0059445B /* saturn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F6130615B7B82A0059445B /* saturn.jpeg */; };
-		F0F6131115B7B82A0059445B /* sun.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F6130715B7B82A0059445B /* sun.jpeg */; };
-		F0F6131215B7B82A0059445B /* sun2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F6130815B7B82A0059445B /* sun2.jpeg */; };
-		F0F6131315B7B82A0059445B /* uranus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F6130915B7B82A0059445B /* uranus.jpeg */; };
-		F0F6131415B7B82A0059445B /* venus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F6130A15B7B82A0059445B /* venus.jpeg */; };
+		F0F613B115C0CD6A0059445B /* earth.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F613A715C0CD6A0059445B /* earth.jpeg */; };
+		F0F613B215C0CD6A0059445B /* jupiter.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F613A815C0CD6A0059445B /* jupiter.jpeg */; };
+		F0F613B315C0CD6A0059445B /* mars.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F613A915C0CD6A0059445B /* mars.jpeg */; };
+		F0F613B415C0CD6A0059445B /* mercury.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F613AA15C0CD6A0059445B /* mercury.jpeg */; };
+		F0F613B515C0CD6A0059445B /* neptune.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F613AB15C0CD6A0059445B /* neptune.jpeg */; };
+		F0F613B615C0CD6A0059445B /* saturn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F613AC15C0CD6A0059445B /* saturn.jpeg */; };
+		F0F613B715C0CD6A0059445B /* sun.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F613AD15C0CD6A0059445B /* sun.jpeg */; };
+		F0F613B815C0CD6A0059445B /* sun2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F613AE15C0CD6A0059445B /* sun2.jpeg */; };
+		F0F613B915C0CD6A0059445B /* uranus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F613AF15C0CD6A0059445B /* uranus.jpeg */; };
+		F0F613BA15C0CD6A0059445B /* venus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F0F613B015C0CD6A0059445B /* venus.jpeg */; };
+		F0F613BC15C0CD7D0059445B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0F613BB15C0CD7D0059445B /* icon.png */; };
+		F0F613C015C0CDAD0059445B /* Jul19AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F613BF15C0CDAD0059445B /* Jul19AppDelegate.m */; };
+		F0F613C315C0CDC10059445B /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F613C115C0CDC10059445B /* View.m */; };
+		F0F613C415C0CDC10059445B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F613C215C0CDC10059445B /* ViewController.m */; };
+		F0F613CF15C0CEBA0059445B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F613CE15C0CEBA0059445B /* main.m */; };
+		F0F613D515C0CEF10059445B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0F613D315C0CEF10059445B /* InfoPlist.strings */; };
+		F0F613E815C0DD260059445B /* InfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F613E715C0DD260059445B /* InfoController.m */; };
+		F0F613EC15C0DE080059445B /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F613EB15C0DE080059445B /* InfoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,26 +35,31 @@
 		F082F17515B64A47006482A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F082F17715B64A47006482A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F082F17915B64A47006482A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F082F17D15B64A47006482A8 /* Jul19-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jul19-Info.plist"; sourceTree = "<group>"; };
-		F082F17F15B64A47006482A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F082F18115B64A47006482A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F082F18315B64A47006482A8 /* Jul19-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jul19-Prefix.pch"; sourceTree = "<group>"; };
-		F082F18415B64A47006482A8 /* Jul19AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jul19AppDelegate.h; sourceTree = "<group>"; };
-		F082F18515B64A47006482A8 /* Jul19AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jul19AppDelegate.m; sourceTree = "<group>"; };
-		F082F18C15B64BDC006482A8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F082F18D15B64BDC006482A8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F082F19215B6508B006482A8 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
-		F082F19315B6508B006482A8 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
-		F0F6130115B7B82A0059445B /* earth.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpeg; sourceTree = "<group>"; };
-		F0F6130215B7B82A0059445B /* jupiter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jupiter.jpeg; sourceTree = "<group>"; };
-		F0F6130315B7B82A0059445B /* mars.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars.jpeg; sourceTree = "<group>"; };
-		F0F6130415B7B82A0059445B /* mercury.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mercury.jpeg; sourceTree = "<group>"; };
-		F0F6130515B7B82A0059445B /* neptune.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neptune.jpeg; sourceTree = "<group>"; };
-		F0F6130615B7B82A0059445B /* saturn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saturn.jpeg; sourceTree = "<group>"; };
-		F0F6130715B7B82A0059445B /* sun.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun.jpeg; sourceTree = "<group>"; };
-		F0F6130815B7B82A0059445B /* sun2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun2.jpeg; sourceTree = "<group>"; };
-		F0F6130915B7B82A0059445B /* uranus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uranus.jpeg; sourceTree = "<group>"; };
-		F0F6130A15B7B82A0059445B /* venus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venus.jpeg; sourceTree = "<group>"; };
+		F0F613A715C0CD6A0059445B /* earth.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpeg; sourceTree = "<group>"; };
+		F0F613A815C0CD6A0059445B /* jupiter.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jupiter.jpeg; sourceTree = "<group>"; };
+		F0F613A915C0CD6A0059445B /* mars.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars.jpeg; sourceTree = "<group>"; };
+		F0F613AA15C0CD6A0059445B /* mercury.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mercury.jpeg; sourceTree = "<group>"; };
+		F0F613AB15C0CD6A0059445B /* neptune.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neptune.jpeg; sourceTree = "<group>"; };
+		F0F613AC15C0CD6A0059445B /* saturn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = saturn.jpeg; sourceTree = "<group>"; };
+		F0F613AD15C0CD6A0059445B /* sun.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun.jpeg; sourceTree = "<group>"; };
+		F0F613AE15C0CD6A0059445B /* sun2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sun2.jpeg; sourceTree = "<group>"; };
+		F0F613AF15C0CD6A0059445B /* uranus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uranus.jpeg; sourceTree = "<group>"; };
+		F0F613B015C0CD6A0059445B /* venus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venus.jpeg; sourceTree = "<group>"; };
+		F0F613BB15C0CD7D0059445B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F0F613BE15C0CD8F0059445B /* Jul19AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jul19AppDelegate.h; sourceTree = "<group>"; };
+		F0F613BF15C0CDAD0059445B /* Jul19AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jul19AppDelegate.m; sourceTree = "<group>"; };
+		F0F613C115C0CDC10059445B /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		F0F613C215C0CDC10059445B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0F613C515C0CDCC0059445B /* View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		F0F613C615C0CDCC0059445B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0F613CE15C0CEBA0059445B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0F613D015C0CECD0059445B /* Jul19-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Jul19-Info.plist"; sourceTree = "<group>"; };
+		F0F613D215C0CEE30059445B /* Jul19-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jul19-Prefix.pch"; sourceTree = "<group>"; };
+		F0F613D415C0CEF10059445B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0F613E615C0DD260059445B /* InfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoController.h; sourceTree = "<group>"; };
+		F0F613E715C0DD260059445B /* InfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoController.m; sourceTree = "<group>"; };
+		F0F613EA15C0DE070059445B /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
+		F0F613EB15C0DE080059445B /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,22 +106,31 @@
 		F082F17B15B64A47006482A8 /* Jul19 */ = {
 			isa = PBXGroup;
 			children = (
-				F082F18415B64A47006482A8 /* Jul19AppDelegate.h */,
-				F082F18515B64A47006482A8 /* Jul19AppDelegate.m */,
-				F082F18C15B64BDC006482A8 /* ViewController.h */,
-				F082F18D15B64BDC006482A8 /* ViewController.m */,
-				F082F19215B6508B006482A8 /* View.h */,
-				F082F19315B6508B006482A8 /* View.m */,
-				F0F6130115B7B82A0059445B /* earth.jpeg */,
-				F0F6130215B7B82A0059445B /* jupiter.jpeg */,
-				F0F6130315B7B82A0059445B /* mars.jpeg */,
-				F0F6130415B7B82A0059445B /* mercury.jpeg */,
-				F0F6130515B7B82A0059445B /* neptune.jpeg */,
-				F0F6130615B7B82A0059445B /* saturn.jpeg */,
-				F0F6130715B7B82A0059445B /* sun.jpeg */,
-				F0F6130815B7B82A0059445B /* sun2.jpeg */,
-				F0F6130915B7B82A0059445B /* uranus.jpeg */,
-				F0F6130A15B7B82A0059445B /* venus.jpeg */,
+				F0F613BE15C0CD8F0059445B /* Jul19AppDelegate.h */,
+				F0F613BF15C0CDAD0059445B /* Jul19AppDelegate.m */,
+				F0F613C515C0CDCC0059445B /* View.h */,
+				F0F613C615C0CDCC0059445B /* ViewController.h */,
+				F0F613C115C0CDC10059445B /* View.m */,
+				F0F613C215C0CDC10059445B /* ViewController.m */,
+				F0F613E615C0DD260059445B /* InfoController.h */,
+				F0F613E715C0DD260059445B /* InfoController.m */,
+				F0F613EA15C0DE070059445B /* InfoView.h */,
+				F0F613EB15C0DE080059445B /* InfoView.m */,
+				F0F613A715C0CD6A0059445B /* earth.jpeg */,
+				F0F613A815C0CD6A0059445B /* jupiter.jpeg */,
+				F0F613A915C0CD6A0059445B /* mars.jpeg */,
+				F0F613AA15C0CD6A0059445B /* mercury.jpeg */,
+				F0F613AB15C0CD6A0059445B /* neptune.jpeg */,
+				F0F613AC15C0CD6A0059445B /* saturn.jpeg */,
+				F0F613AD15C0CD6A0059445B /* sun.jpeg */,
+				F0F613AE15C0CD6A0059445B /* sun2.jpeg */,
+				F0F613AF15C0CD6A0059445B /* uranus.jpeg */,
+				F0F613B015C0CD6A0059445B /* venus.jpeg */,
+				F0F613BB15C0CD7D0059445B /* icon.png */,
+				F0F613CE15C0CEBA0059445B /* main.m */,
+				F0F613D015C0CECD0059445B /* Jul19-Info.plist */,
+				F0F613D215C0CEE30059445B /* Jul19-Prefix.pch */,
+				F0F613D315C0CEF10059445B /* InfoPlist.strings */,
 				F082F17C15B64A47006482A8 /* Supporting Files */,
 			);
 			path = Jul19;
@@ -122,10 +139,6 @@
 		F082F17C15B64A47006482A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F082F17D15B64A47006482A8 /* Jul19-Info.plist */,
-				F082F17E15B64A47006482A8 /* InfoPlist.strings */,
-				F082F18115B64A47006482A8 /* main.m */,
-				F082F18315B64A47006482A8 /* Jul19-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,17 +194,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F082F18015B64A47006482A8 /* InfoPlist.strings in Resources */,
-				F0F6130B15B7B82A0059445B /* earth.jpeg in Resources */,
-				F0F6130C15B7B82A0059445B /* jupiter.jpeg in Resources */,
-				F0F6130D15B7B82A0059445B /* mars.jpeg in Resources */,
-				F0F6130E15B7B82A0059445B /* mercury.jpeg in Resources */,
-				F0F6130F15B7B82A0059445B /* neptune.jpeg in Resources */,
-				F0F6131015B7B82A0059445B /* saturn.jpeg in Resources */,
-				F0F6131115B7B82A0059445B /* sun.jpeg in Resources */,
-				F0F6131215B7B82A0059445B /* sun2.jpeg in Resources */,
-				F0F6131315B7B82A0059445B /* uranus.jpeg in Resources */,
-				F0F6131415B7B82A0059445B /* venus.jpeg in Resources */,
+				F0F613B115C0CD6A0059445B /* earth.jpeg in Resources */,
+				F0F613B215C0CD6A0059445B /* jupiter.jpeg in Resources */,
+				F0F613B315C0CD6A0059445B /* mars.jpeg in Resources */,
+				F0F613B415C0CD6A0059445B /* mercury.jpeg in Resources */,
+				F0F613B515C0CD6A0059445B /* neptune.jpeg in Resources */,
+				F0F613B615C0CD6A0059445B /* saturn.jpeg in Resources */,
+				F0F613B715C0CD6A0059445B /* sun.jpeg in Resources */,
+				F0F613B815C0CD6A0059445B /* sun2.jpeg in Resources */,
+				F0F613B915C0CD6A0059445B /* uranus.jpeg in Resources */,
+				F0F613BA15C0CD6A0059445B /* venus.jpeg in Resources */,
+				F0F613BC15C0CD7D0059445B /* icon.png in Resources */,
+				F0F613D515C0CEF10059445B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,20 +216,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F082F18215B64A47006482A8 /* main.m in Sources */,
-				F082F18615B64A47006482A8 /* Jul19AppDelegate.m in Sources */,
-				F082F18E15B64BDC006482A8 /* ViewController.m in Sources */,
-				F082F19415B6508B006482A8 /* View.m in Sources */,
+				F0F613C015C0CDAD0059445B /* Jul19AppDelegate.m in Sources */,
+				F0F613C315C0CDC10059445B /* View.m in Sources */,
+				F0F613C415C0CDC10059445B /* ViewController.m in Sources */,
+				F0F613CF15C0CEBA0059445B /* main.m in Sources */,
+				F0F613E815C0DD260059445B /* InfoController.m in Sources */,
+				F0F613EC15C0DE080059445B /* InfoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F082F17E15B64A47006482A8 /* InfoPlist.strings */ = {
+		F0F613D315C0CEF10059445B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F082F17F15B64A47006482A8 /* en */,
+				F0F613D415C0CEF10059445B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

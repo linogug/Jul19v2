@@ -12,5 +12,5 @@
 
 - (id) initWithTitle: (NSString *) title;
 - (void) nextStation;
-
+- (void) discover;
 @end

@@ -31,6 +31,24 @@
 		self.font = [UIFont fontWithName: @"Courier" size: 16];
 		self.editable = NO;
 		viewController = c;
+		
+		UIButton *button = [UIButton buttonWithType: UIButtonTypeRoundedRect];
+		
+		NSString *title = @"Explore";
+		[button setTitle: title forState: UIControlStateNormal];
+		CGSize s = [title sizeWithFont: button.titleLabel.font];
+		button.frame = CGRectMake(0, 0, s.width + 20, s.height + 10);
+		
+		//Put center of button at origin of StationView.
+		button.center = CGPointMake (self.bounds.size.height/2, self.bounds.size.width/2);
+		
+		[button addTarget: viewController
+				   action: @selector(discover)
+		 forControlEvents: UIControlEventTouchUpInside
+		 ];
+		
+		[self addSubview: button];
+		
 	}
 	return self;
 }

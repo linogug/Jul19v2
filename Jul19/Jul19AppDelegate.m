@@ -11,6 +11,7 @@
 
 @implementation Jul19AppDelegate
 @synthesize window = _window;
+@synthesize information;
 
 - (BOOL) application: (UIApplication *) application didFinishLaunchingWithOptions: (NSDictionary *) launchOptions
 {
@@ -26,6 +27,21 @@
 			 @"Neptune",
 			 nil
 			 ];
+
+	information = [NSDictionary dictionaryWithObjectsAndKeys:
+				   @"http://en.m.wikipedia.org/wiki/Sun",          @"Sun",
+				   @"http://en.m.wikipedia.org/wiki/Mercury",      @"Mercury",
+				   @"http://en.m.wikipedia.org/wiki/Venus",        @"Venus",
+				   @"http://en.m.wikipedia.org/wiki/Earth",        @"Earth",                        
+				   @"http://en.m.wikipedia.org/wiki/Mars",         @"Mars",
+				   @"http://en.m.wikipedia.org/wiki/Jupiter",      @"Jupiter",		 
+				   @"http://en.m.wikipedia.org/wiki/Saturn",        @"Saturn",
+				   @"http://en.m.wikipedia.org/wiki/Uransu",        @"Uranus",
+				   @"http://en.m.wikipedia.org/wiki/Neptune",        @"Neptune",
+				   nil
+				   ];
+	
+	
 	
 	NSString *firstName = [planets objectAtIndex: 0];
 	ViewController *firstController = [[ViewController alloc] initWithTitle: firstName];
@@ -64,6 +80,13 @@
 	[navigationController pushViewController: [visited objectAtIndex: i] animated: YES];
 
 }
+
+
+
+
+
+
+
 
 - (void) applicationWillResignActive: (UIApplication *) application
 {

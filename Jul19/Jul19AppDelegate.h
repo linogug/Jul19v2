@@ -16,5 +16,9 @@
 }
 
 - (void) nextStation;
+
+
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSDictionary *information;
 @end
+
